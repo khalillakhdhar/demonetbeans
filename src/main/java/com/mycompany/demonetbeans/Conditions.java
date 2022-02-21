@@ -27,7 +27,15 @@ public class Conditions {
 
     
     }
-    
+    public boolean parite()
+    {
+    if(this.a % 2 == 0) // % pour le reste modulo == pour la comparaison
+    {
+        return true;
+    }
+    else 
+        return false;
+    }
     
     
 }
